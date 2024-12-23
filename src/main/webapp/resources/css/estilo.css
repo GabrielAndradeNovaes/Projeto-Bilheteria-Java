@@ -1,0 +1,153 @@
+/* Tema Claro */
+body.tema-claro {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Tema Escuro */
+body.tema-escuro {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Tema Claro */
+body.tema-claro .navbar {
+    background-color: #F8F9FA;
+    color: #000000;
+}
+body.tema-claro .navbar a {
+    color: #000000;
+}
+body.tema-claro .btn {
+    background-color: #32de84;
+    color: #000000;
+    border-color: #000000;
+}
+
+/* Tema Escuro */
+body.tema-escuro .navbar {
+    background-color: #212529;
+    color: #ffffff;
+}
+body.tema-escuro .navbar a {
+    color: #ffffff;
+}
+body.tema-escuro .btn {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Estilo Geral */
+.container {
+	margin-top: 200px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Tema Claro */
+body.tema-claro .container {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+body.tema-claro .table {
+    background-color: #fff;
+    color: #000;
+}
+
+body.tema-claro .alert {
+    background-color: #ffc107;
+    color: #000;
+}
+
+body.tema-claro .btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+body.tema-claro .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Tema Escuro */
+body.tema-escuro .container {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+body.tema-escuro .table {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+body.tema-escuro .table th {
+    background-color: #3a3a3a;
+}
+
+body.tema-escuro .alert {
+    background-color: #ff9800;
+    color: #1e1e1e;
+}
+
+body.tema-escuro .btn-primary {
+    background-color: #1f77b4;
+    color: #fff;
+    border: none;
+}
+body.tema-escuro .btn-primary:hover {
+    background-color: #145a8d;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card-body {
+    font-size: 0.95rem;
+    color: #023e8a;
+}
+
+.card-footer {
+    font-size: 0.85rem;
+    color: #006d77;
+}
+
+body.tema-escuro .card {
+    background-color: #2b2b2b !important; /* Fundo do card */
+    color: #e0e0e0 !important; /* Texto principal */
+    border: none;
+}
+
+body.tema-escuro .card-header {
+    background-color: #1f77b4; /* Azul escuro para o cabeçalho */
+    color: #ffffff; /* Texto branco */
+}
+
+body.tema-escuro .card-body {
+    color: #a8dadc; /* Texto azul claro */
+}
+
+body.tema-escuro .card-footer {
+    background-color: #3a3a3a; /* Cinza escuro */
+    color: #f1faee; /* Texto branco acinzentado */
+}
+
+/* Efeito Hover para Tema Escuro */
+body.tema-escuro .card:hover {
+    transform: scale(1.05); /* Efeito de zoom */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
